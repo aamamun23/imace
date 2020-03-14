@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap");
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #53575A; }
+
+h3 {
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 49px;
+  color: rgba(0, 30, 87, 0.87); }
+
+.darkBlue {
+  color: #0067B1; }
+
+blockquote {
+  background: #F4F4F4;
+  padding: 30px;
+  border-left: 4px solid #0067B1;
+  font-size: 20px;
+  line-height: 30px;
+  color: #53575A; }
+
+.header-top {
+  background: #F8F9FA; }
+  .header-top a {
+    font-size: 14px; }
+  .header-top ul.list-unstyled {
+    margin-top: 5px; }
+
+.navbar ul.navbar-nav li {
+  padding: 5px 20px; }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px; }
+
+.banner {
+  background-image: url("../images/home/banner.png");
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding: 80px 0 200px; }
+
+.quad-box {
+  background-color: #ffffff;
+  padding: 20px;
+  border-bottom: 1px solid #C4C4C4; }
+  @media all and (min-width: 576px) {
+    .quad-box {
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%); } }
+  .quad-box h4 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px; }
+  .quad-box h3 {
+    font-size: 18px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 19px;
+    color: #3C3C3C; }
+  .quad-box .quad1 {
+    border-bottom: 1px solid #C4C4C4;
+    padding-bottom: 10px; }
+
+@media all and (min-width: 576px) {
+  .project-info {
+    margin-top: -9%; } }
+
+.projects-stat {
+  text-align: center;
+  color: #fff;
+  margin-top: 15px; }
+  .projects-stat h3 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 35px;
+    color: #fff; }
+  .projects-stat p {
+    font-size: 14px;
+    line-height: 35px; }
+
+footer {
+  background-color: #F4F4F4;
+  padding-top: 20px; }
+  footer h5 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.87); }
+  footer a {
+    font-size: 16px;
+    line-height: 28px;
+    color: #3C3C3C; }
+
+/*About CSS Start*/
+.abt-banner {
+  background-repeat: no-repeat;
+  padding: 60px 0; }
+  .abt-banner h2 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px;
+    color: #FFFFFF; }
+  .abt-banner ul li {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px; }
+  .abt-banner ul li a {
+    color: #4CA8EA; }
+
+.we-mace .abt-mace h5 {
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.54); }
+
+.we-mace .abt-mace h3 {
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+  color: rgba(0, 30, 87, 0.87); }
+
+.we-mace .abt-mace p {
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #53575A; }
+
+.we-mace .stats {
+  background: #fff;
+  transform: translateX(-8%);
+  text-align: center;
+  box-shadow: 0 0 5px #ccc; }
+  .we-mace .stats div {
+    width: calc(100%/3); }
+    .we-mace .stats div:nth-child(2) {
+      border-right: .5px solid #C4C4C4;
+      border-left: .5px solid #C4C4C4; }
+    .we-mace .stats div h3 {
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 180%;
+      text-align: center;
+      color: #0067B1; }
+    .we-mace .stats div p {
+      font-size: 16px;
+      line-height: 180%;
+      color: #3C3C3C; }
+
+/*Business & Responsibility*/
+.busres h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 180%;
+  color: #0067B1; }
+
+.busres p {
+  font-size: 16px;
+  line-height: 140%;
+  color: #3C3C3C; }
+
+.busres a {
+  font-size: 16px;
+  color: #0067B1; }
+
+/*Accordion*/
+.abt-accordion .accordion .card {
+  border: 0;
+  margin-bottom: 10px; }
+
+.abt-accordion .accordion .card-header {
+  padding: 0; }
+
+.abt-accordion h3 {
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 49px;
+  color: rgba(0, 30, 87, 0.87); }
+
+.abt-accordion .accordion h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 23px;
+  color: rgba(0, 30, 87, 0.87);
+  cursor: pointer;
+  background: #F6F9FF;
+  padding: .75rem 1.25rem; }
+
+.abt-accordion .accordion h2[aria-expanded=true] {
+  background: #0067B1;
+  color: #fff; }
+
+.abt-accordion .accordion h2.collapsed {
+  background: #F6F9FF; }
+
+.abt-accordion .offerimg {
+  margin-top: 45px;
+  padding: 10px;
+  border: 10px solid #0067B1; }
+
+/*Project CSS Start*/
+.projects h3 {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 24px;
+  color: #3C3C3C;
+  margin-top: 10px; }
+
+.projects p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #53575A; }
+
+.projects a {
+  font-size: 16px;
+  line-height: 20px;
+  color: #0067B1; }
+
+/*Contact Page CSS Start*/
+.contact .contactform label {
+  font-size: 14px;
+  line-height: 8px;
+  letter-spacing: 0.05em;
+  color: #565969; }
+  .contact .contactform label b {
+    color: #0067B1; }
+
+.contact .contactform input::placeholder {
+  font-size: 12px;
+  line-height: 12px; }
+
+.contact .contactform textarea::placeholder {
+  font-size: 12px;
+  line-height: 12px; }
+
+.contact .contactinfo {
+  color: #fff; }
+  .contact .contactinfo h2 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 120%; }
+  .contact .contactinfo p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px; }
+  .contact .contactinfo h5 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px; }
+  .contact .contactinfo a {
+    color: #fff;
+    font-size: 16px;
+    padding: 8px; }
+
+/*General Page CSS*/
+.sidebar form {
+  position: relative; }
+  .sidebar form img {
+    position: absolute;
+    top: 7px;
+    right: 5px;
+    width: 25px; }
+
+.sidebar .rpost {
+  margin-top: 50px; }
+  .sidebar .rpost h5 {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 45px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-left: 4px solid #0067B1;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px; }
+  .sidebar .rpost ul li a {
+    color: #53575A; }
+    .sidebar .rpost ul li a.active {
+      color: #0067B1; }
+    .sidebar .rpost ul li a:hover {
+      text-decoration: none; }
+  .sidebar .rpost .overlay {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 70px 30px;
+    color: #fff; }
+    .sidebar .rpost .overlay h4 {
+      color: #fff;
+      font-weight: 800;
+      font-size: 30px;
+      line-height: 50px;
+      color: #FFFFFF; }
+  .sidebar .rpost.ads2 {
+    background: #001E57;
+    padding: 40px 10px;
+    text-align: center;
+    color: #fff; }
+    .sidebar .rpost.ads2 h4 {
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 150%; }
+
+.fa-long-arrow-alt-right {
+  color: #0067B1;
+  margin-right: 5px; }
