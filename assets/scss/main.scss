@@ -14,6 +14,12 @@ h3{
 .darkBlue{
 	color: $colorBlue;
 }
+.darkBlueBg{
+	background-color: #10428d;
+}
+.colorBlue{
+	color: #10428d;
+}
 blockquote{
 	background: #F4F4F4;
 	padding: 30px;
@@ -375,4 +381,17 @@ footer{
 .fa-long-arrow-alt-right{
 	color: #0067B1;
 	margin-right: 5px;
+}
+
+/*Career Page CSS*/
+.darkBlueBg{
+	h2{
+		font-size: 50px;
+		font-weight: 700;
+	}
+	h4{
+		font-size: 24px;
+		font-weight: bold;
+		margin-top: 15px;
+	}
 }
